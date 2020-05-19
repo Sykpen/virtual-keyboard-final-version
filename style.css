@@ -1,0 +1,63 @@
+.mainback{
+    width: 920px;
+    margin: 0 auto;
+    background-color: rgba(243, 184, 135, 0.479);
+    height: 310px;
+}
+
+.back_for_language_change{
+    width: 920px;
+    margin: 0 auto;
+    background-color: rgba(243, 184, 135, 0.479);
+    height: 210px;
+    text-align: center;
+}
+
+.text{
+    font-size: 40px;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+}
+.row{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.cell{
+    flex-shrink: 1;
+    
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+    background-color: rgb(38, 76, 179);
+    color: white;
+    line-height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 0 #3C93D5;
+    transition: 0.1s;
+}
+.big{
+    width: 100px;
+}
+.space{
+    width:350px;
+}
+.selected{
+    background-color: red;
+    box-shadow: none;
+}
+.writingarea{
+    display: block;
+    margin:0 auto;
+    width: 920px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.none{
+    display: none;
+}
